@@ -1,5 +1,5 @@
-![CI](https://github.com/ruangonzalez/palindrome-project/actions/workflows/ci.yml/badge.svg)
-![CD](https://github.com/ruangonzalez/palindrome-project/actions/workflows/cd.yml/badge.svg)
+![CI](https://github.com/ruangonzalez/palindromos/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/ruangonzalez/palindromos/actions/workflows/cd.yml/badge.svg)
 
 # 🔁 Palindrome Detector
 
