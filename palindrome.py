@@ -10,6 +10,6 @@ def is_palindrome(text: str) -> bool:
 if __name__ == "__main__":
     word = input("Digite uma palavra ou frase: ")
     if is_palindrome(word):
-        print("✅ É um palíndromo!")
+        print(f"✅ '{word}' É um palíndromo!")
     else:
-        print("❌ Não é um palíndromo.")
+        print(f"❌ '{word}' Não é um palíndromo.")
