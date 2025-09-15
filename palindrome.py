@@ -12,4 +12,4 @@ if __name__ == "__main__":
     if is_palindrome(word):
         print(f"✅ '{word}' É um palíndromo!")
     else:
-        print(f"❌ '{word}' Não é um palíndromo.")
+        print(f"❌ '{word}' Não é um palíndromo!")
