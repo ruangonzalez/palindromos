@@ -12,7 +12,7 @@ def is_palindrome(text: str) -> bool:
 
 
 if __name__ == "__main__":
-    word = input("Digite uma palavra ou frase: ")
+    word = input("👉 Digite uma palavra ou frase para verificar se é palíndromo: ")
     print(f"📏 O texto tem {len(word)} caracteres.")
     if is_palindrome(word):
         print(f"✅ '{word}' É um palíndromo!")
