@@ -1,3 +1,6 @@
+![CI](https://github.com/SEU-USUARIO/palindrome-project/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/SEU-USUARIO/palindrome-project/actions/workflows/cd.yml/badge.svg)
+
 # 🔁 Palindrome Detector
 
 Um projetinho simples em **Python** que verifica se uma palavra ou frase é um **palíndromo**.  
