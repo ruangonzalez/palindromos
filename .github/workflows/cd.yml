@@ -2,13 +2,13 @@ name: CD
 
 on:
   push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
-  # Quando você criar uma tag tipo v1.0.0, gera Release com binários
-  push:
+    branches:
+      - "main"
     tags:
       - "v*.*.*"
+  pull_request:
+    branches:
+      - "main"
 
 jobs:
   build-binaries:
@@ -31,7 +31,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # PyInstaller já está no requirements, mas garantimos:
           python -m pip install pyinstaller
 
       - name: Build with PyInstaller
