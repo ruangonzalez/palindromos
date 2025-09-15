@@ -16,5 +16,9 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("12321"))
         self.assertFalse(is_palindrome("12345"))
 
+    def test_mixed_case(self):
+        self.assertTrue(is_palindrome("Radar"))
+
+
 if __name__ == "__main__":
     unittest.main()
